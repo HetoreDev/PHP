@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8"/>
+        <link rel="stylesheet" href="_css/estilo.css"/>
+        <title>Aula 10 - Exercicio 01 - Estrutura Condicional Switch</title>
+    </head>
+    <body>
+        <div>
+            <form method="get" action="01exercicio.php">
+                Número: <input type="number" name="num"/><br/>
+                <fieldset><legend>Operação</legend>
+                    <input type="radio" name="oper" id="dobro" value="1" checked/>
+                    <label for="dobro">Dobro</label><!--Com essa linha ao clicar na palavra, irá automaticamente selecionar o Radio correspondente-->
+                    <input type="radio" name="oper" id="cubo" value="2">
+                    <label for="cubo">Cubo</label><!--Com essa linha ao clicar na palavra, irá automaticamente selecionar o Radio correspondente-->
+                    <input type="radio" name="oper" id="raiz" value="3">
+                    <label for="raiz">Raiz Quadrada</label><!--Com essa linha ao clicar na palavra, irá automaticamente selecionar o Radio correspondente-->
+                </fieldset><br/>
+                <input type="submit" class="botao" value="Calcular"/>
+            </form>
+        </div>
+    </body>
+</html>
